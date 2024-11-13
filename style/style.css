@@ -61,3 +61,129 @@ h1{
     width: 500px;
     height: 500px;
 }
+
+.header {
+    background: yellow;
+   
+    padding: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: medium;
+}
+
+.secondlinc{
+    font-size: xx-small;
+    font-weight: 900;
+    font-family: URW Chancery L, cursive;
+
+}
+
+.mainlink{
+    font-size: xx-small;
+    font-weight: 900;
+    font-family: URW Chancery L, cursive;
+}
+
+.container{
+    background: yellow;
+    width: 400px;
+    height: 500px;
+}
+
+.block1page2{
+    background:azure;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: medium;
+    position:relative;
+
+    left: 90px;
+}
+
+#desertimg{
+    position:relative;
+
+    left: 95px;
+}
+
+.container-2{
+    background: yellow;
+    width: 400px;
+    height: 400px;
+}
+
+.block2page2{
+    background:azure;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: medium;
+    position:relative;
+    top: 90px;
+    left: 90px;
+}
+
+.container-3{
+    background: yellow;
+    border-style: solid;
+    border-width: medium;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.block3page2{
+    background:azure;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: medium;
+    margin: 5px;
+}
+
+.obj1{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: red;
+}
+
+.obj2{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: blue;
+    position:relative;
+    bottom: 90px;
+    left: 90px;
+}
+
+.obj3{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: green;
+    position:relative;
+    bottom: 180px;
+    left: 180px;
+}
+
+.fixcat{
+    position: fixed;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    top: 860px;
+    left: 1790px;
+}

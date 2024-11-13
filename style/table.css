@@ -60,3 +60,20 @@ td, th {
     background: #00FF00;
     font-size: xx-large;
   }
+
+  .form{
+    border-style: solid;
+    border-width: medium;
+    padding: 15px;
+    margin: 15px;
+    width: 180px;
+    background: #FFFACD;
+  }
+
+  .field{
+    margin: 5px;
+  }
+
+.button{
+    margin: 5px;   
+}

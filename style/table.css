@@ -1,0 +1,62 @@
+body{
+    background-color: azure;
+}
+
+.header {
+    background: yellow;
+   
+    padding: 5px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: medium;
+}
+
+
+.link{
+    font-size: xx-small;
+    font-weight: 900;
+    font-family: URW Chancery L, cursive;
+}
+
+.maintable{
+    margin: 15px;
+    border-style: solid;
+    border-width: medium;
+    width: 900px;
+
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .row-main{
+    background: yellowgreen;
+  }
+
+  .row-1{
+    background: gray;
+  }
+
+  .row-2{
+    background: #00FF7F;
+  }
+
+  .row-3{
+    background: #7FFFD4;
+  }
+
+  .row-4{
+    background: #DDA0DD;
+  }
+
+  .row-5{
+    background: #F5DEB3;
+  }
+
+  .tablable{
+    background: #00FF00;
+    font-size: xx-large;
+  }

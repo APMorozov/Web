@@ -71,14 +71,8 @@ h1{
     border-width: medium;
 }
 
-.secondlinc{
-    font-size: xx-small;
-    font-weight: 900;
-    font-family: URW Chancery L, cursive;
 
-}
-
-.mainlink{
+.link{
     font-size: xx-small;
     font-weight: 900;
     font-family: URW Chancery L, cursive;

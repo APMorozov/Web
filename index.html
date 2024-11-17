@@ -1,88 +1,162 @@
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
-    <head>
-        <link rel="stylesheet" href="style/style.css">
-        <title>Первая лабораторная работа</title>
+    <head>	
+        <link rel="stylesheet" href="style/actor.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
+            crossorigin="anonymous"	
+         >
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
+            crossorigin="anonymous">
+        </script>
     </head>
-
-
-    <body>
-        <div class="header">
-            <a href="index.html" class="link">Основная страница</a>
-            <a href="page2.html" class="link">Позоционирование элементов</a>
-            <a href="table.html" class="link">Таблица</a>
+    <body data-bs-spy="scroll" data-bs-target=".navnar" class="main">
+          <nav class="navbar navbar-expand-lg fixed-top  bg-#2F4F4F">
+            <a class="navbar-brand" href="images/fixcat.jpg">Навигация
+                <img src="images/iron_Arniy.jpeg" alt="" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Об актере</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="film.html">Фильмы</a>
+                </li>
+              </ul>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">Фото Арни</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Лучшие фильмы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Биография</a>
+              </li>
+          </nav>
+          
+          <div class="container" id="section1">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Arni1.2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Бодибилдинг</h5>
+                    <p>Бодибилдинг неотъемлемая часть жизни Арнольда<br>
+                    Именно он формировал его карьеру и личность</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Arni1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Карьера киноактера</h5>
+                    <p>"Конан-варвар" один из культовый филмов<br>
+                    ставший началом кино карьеры Арни</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Arni2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Политическая деятельность</h5>
+                    <p>В 2003 году Арнольд Шварценеггер был избран на пост губернатора Калифорнии<br>
+                        Он активно поддерживал экологические инициативы, уделял внимание вопросам здорового образа жизни и образования
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="content">
-            <div class="content-left">
-                <h1>Это моя не первая html страница</h1>
-                <h2>О себе</h2>
-                <p>Родился в городе Новокуйбышевск в 2005 году<br>
-                    Отучился 11 классов в школе и поступил в Самарский университет<br>
-                </p>
+        <div class="card-container" id="section2">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="images/predator.jpg">
+                    Фильм "Хищник" с Арнольдом Шварценеггером стал культовым произведением, которое оказало огромное влияние на жанр
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/6303/" role="button">Смотреть</a>
 
-                <p class="poem">
-                    Уж небо осенью дышало,<br>
-                    Уж реже солнышко блистало,<br>
-                    Короче становился день,<br>
-                    Лесов таинственная сень<br>
-                    С печальным шумом обнажалась.<br>
-                    Ложился на поля туман,<br>
-                    Гусей крикливых караван<br>
-                    Тянулся к югу: приближалась<br>
-                    Довольно скучная пора;<br>
-                    Стоял ноябрь уж у двора.<br>
-                </p>
-                <div class="block">
-                    <h2>
-                        Фильмы которые мне нравятся
-                    </h2>
-                    <ul>
-                        <li>Морпехи</li>
-                        <li>Основатель</li>
-                        <li>Форд против Феррари </li>
-                    </ul>
-                </div>
-
-                <div class="block">
-                    <h2>
-                        Мои любимые книги:
-                    </h2>
-                    <ol>
-                        <li>Д.Оруэл 1984</li>
-                        <li>С.Кинг Долгая прогулка</li>
-                        <li>С.Лем Непобедимый</li>
-                    </ol>
-                </div>
-
-                <div class="block">
-                    <h2>
-                        Мои любимые марки авто:
-                    </h2>
-                    <ol>
-                        <li>Audi</li>
-                        <li>BMW</li>
-                        <li>Porsche</li>
-                    </ol>
-                </div>
-
-                <div class="block">
-                    <h2>
-                        Как связаться со мной:
-                    </h2>
-                    <ol>
-                        <li>ТГ: @MorozzSp</li>
-                    
-                    </ol>
+                    </div>
                 </div>
             </div>
 
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="images/commando.jpg">
+                    Культовый боевик 80-х годов с Арнольдом. На момент выхода получил смешанные отзывы, но со временем его восприятие изменилось
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/2238/" role="button">Смотреть</a>
+                    </div>
+                </div>
+            </div>
 
-        <div class="content-right">
-            <div id="imgCat">
-                <img src="images/cat.jpg" height="500px" width="500px">
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="images/terminator.jpg">
+                    "Терминатор" с "Железным Арни" стал культурным феноменом и запустил целую цепочку фильмов. Продалжающиюся по сей день
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/507/" role="button">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img class="img-card" src="images/total_recall.jpg">
+                    Фильм снова перевернул всю киноигру и укрепил статус Шварценеггера как ведущего Голливудского актера, открыв все двери для Арни
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="https://www.kinopoisk.ru/film/2443/" role="button">Смотреть</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#" data-bs-target=".target" id="biograph">Биография</a>
+        <div id="section3">
+            <div class="collapse target" id="target-1">
+                <div class="card card-body" id="card1">
+                    <h2>До карьеры в кино</h2>
+                    Арнольд Шварценеггер, родившийся 30 июля 1947 года в австрийской деревне Таль, стал одной из самых известных фигур в мире бодибилдинга и кино. 
+                    Его детство было непростым: он вырос в семье с жестким отцом, Густавом, который был полицейским.<br><br>
+                    Воспитание было строгим, и Арнольд часто испытывал давление со стороны отца, что привело к напряженной атмосфере в доме. 
+                    Однако его мать, Аурелия, была поддержкой для него и вдохновила на занятия спортом<br><br>
+                    В 14 лет занялся бодибилдингом, вдохновившись такими культуристами, как Рег Парк и Стив Ривз.
+                    В 1968 году Шварценеггер переехал в США с целью построить карьеру бодибилдера и актера.
+                    Он быстро завоевал признание в мире бодибилдинга, став "Мистером Вселенной" и затем семикратным "Мистером Олимпия"
+                </div>
+            </div>
+            <div class="collapse target" id="target-2">
+                <div class="card card-body" id="card2">
+                    <h2>После</h2>
+                    Первую роль Шварценеггер получил в фильме "Геркулес в Нью-Йорке" (1970), однако этот фильм не имел успеха и сам актер позже назвал его худшим в своей карьере.<br><br>
+                    К концу 1970-х годов Шварценеггер стал известной фигурой в мире бодибилдинга и начал привлекать внимание продюсеров.
+                    Его физическая форма и харизма стали основой для будущей карьеры в кино, которая началась с успеха фильма "Конан-варвар" (1982).
+                    Эти ранние достижения в бодибилдинге и кино стали основой для его дальнейшей звездной карьеры.<br><br>
+                    Так же Арнольд Шварценеггер активно участвовал в политической жизни, став 38-м губернатором Калифорнии с 2003 по 2011 год.
+                </div>
+            </div>
+        </div>
+
+        
+
     </body>
 </html>

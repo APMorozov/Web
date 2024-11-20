@@ -118,3 +118,59 @@ a{
     position: relative;
     right: 50px;
 }
+
+.container{
+    border: 3px solid #132020;
+    border-radius: 5%;
+    background-color: #00433E;
+    position: relative;
+    top: 100px;
+    margin: 20px !important;
+}
+
+
+
+#col-bold{
+    margin: 10px !important;
+    border: 3px solid #132020;
+    border-radius: 5%;
+}
+
+#col-img{
+    margin: auto !important;
+}
+
+ul span{
+    color: red !important;
+}
+
+#best-films{
+    color: white;
+    position: relative;
+    top: 100px !important;
+
+}
+
+#info-col{
+    color: white;
+}
+
+#filmology{
+    color: white;
+    position: relative;
+    top: 100px !important;
+}
+
+.table{
+    position: relative;
+    top: 100px;
+}
+
+.table-custom{
+    color: white !important;
+    background-color: #00433E;
+    border: 4px solid #132020 !important;
+}
+
+
+

@@ -131,13 +131,13 @@ a{
 
 
 #col-bold{
-    margin: 10px !important;
+    margin: 15px;
     border: 3px solid #132020;
     border-radius: 5%;
 }
 
 #col-img{
-    margin: auto !important;
+    margin: auto;
 }
 
 ul span{
